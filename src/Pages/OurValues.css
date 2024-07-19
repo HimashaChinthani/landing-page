@@ -1,0 +1,58 @@
+.values-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#495057; 
+  }
+  
+  .values {
+    margin-top: 20px;
+  }
+  
+  .values h1 {
+    font-size: 24px; 
+  }
+  
+  .values ol {
+    list-style-type: none;
+    counter-reset: list-counter;
+    padding-left: 0;
+  }
+  
+  .values ol li {
+    counter-increment: list-counter;
+    margin-bottom: 20px;
+    font-size: 16px; 
+  }
+  
+  .values ol li h2 {
+    margin-top: 0;
+  }
+  
+  .values ol li:before {
+    content: counter(list-counter) ". ";
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .values ul {
+    list-style-type: disc;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .values ul li {
+    margin-bottom: 8px;
+    font-size: 14px; 
+  }
+  
+  .values ul li::before {
+    content: "\2022"; 
+    color: #007bff; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  

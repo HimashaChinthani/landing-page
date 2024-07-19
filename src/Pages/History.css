@@ -1,0 +1,23 @@
+.history-heading {
+    background-color: #343a40; 
+    color: #f8f9fa; 
+    padding: 2rem;
+    text-align: center; 
+  }
+  
+  .history-heading h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 1rem;
+  }
+  
+  .history-context {
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6; 
+  }
+  
+  .history-context p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem; 
+  }
+  

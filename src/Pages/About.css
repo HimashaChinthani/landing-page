@@ -1,0 +1,88 @@
+
+.bg {
+  background: url('../Pages/Picture/pic1.jpg') no-repeat center center/cover;
+  color: white;
+  filter: brightness(1);
+}
+
+.about-container {
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem; 
+  color: #1a1a1a; 
+}
+
+.subheading {
+  text-align: center;
+  font-size: 2rem; 
+  color: #1a1a1a; 
+}
+
+.subheading a {
+  color: #1a1a1a; 
+  text-decoration: none;
+}
+
+.subheading a:hover {
+  text-decoration: underline;
+}
+
+.text {
+  text-align: justify;
+  font-size: 1.2rem;
+  color: #333; 
+}
+
+.about-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  margin: 1rem;
+  text-align: center;
+}
+
+.team-member-image {
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+}
+
+.values-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.value {
+  font-size: 1.2rem;
+  color: #333; 
+}
+
+p.text {
+  font-size: 1.2rem; 
+}
+
